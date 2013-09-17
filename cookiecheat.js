@@ -21,21 +21,6 @@ function create_cheating_element()
 		elem.style.overflow = "hidden";
 	}, false);
 	elem.style.width = "100px"; elem.style.height = "20px";
-	/*
-	var cheatelemStatus = 0;
-	elem.addEventListener("dblclick", function(){
-		if (cheatelemStatus == 0) {
-			// 閉じているので開く
-			elem.style.width = "400px"; elem.style.height = "500px";
-			elem.style.overflow = "auto";
-		} else {
-			// 開いているので閉じる
-			elem.style.width = "100px"; elem.style.height = "20px";
-			elem.style.overflow = "hidden";
-		}
-	}, false);
-	*/
-	elem.style.width = "100px"; elem.style.height = "20px";
 	document.getElementsByTagName("body")[0].appendChild(elem);
 
 	elem.innerHTML = '<table id="cheats">';

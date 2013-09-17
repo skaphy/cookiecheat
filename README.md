@@ -4,4 +4,4 @@ CookieClicker用のチートブックマークレットです。
 
 そうすると左上に白い半透明のものがでてくるのでそこにマウスを持って行くと使用出来るチートが表示されます。
 
-<a href="javascript:elem=document.createElement("script");elem.src="https://raw.github.com/skaphy/cookiecheat/master/cookiecheat.js";document.getElementsByTagName("body")[0].appendChild(elem);">CookieCheat</a>
+[CookieCheat](javascript:elem=document.createElement("script");elem.src="https://raw.github.com/skaphy/cookiecheat/master/cookiecheat.js";document.getElementsByTagName("body")[0].appendChild(elem);)
